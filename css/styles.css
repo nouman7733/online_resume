@@ -1,10 +1,14 @@
 /* Layout & Structure */
 body {
-  font-family: Arial, sans-serif;
+  background-image: url('/assets/bg\ texture.png'); /* Background image */
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image */
+  background-blend-mode: multiply; /* Blend mode */
+  font-family: 'Cinzel', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #CFC2A2;
 }
 
 .container {
@@ -15,10 +19,18 @@ body {
 }
 
 .header {
-  background-color: #333;
+  background-color: #8F1917; /* Changed to the new color */
+  background-image: url('/assets/image\ 61.png'); /* Background image */
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image */
+  background-blend-mode: multiply; /* Blend mode */
   color: #fff;
   text-align: center;
   padding: 50px 0;
+}
+
+.header p {
+  color: white; /* Change text color to white */
 }
 
 .navigation {
@@ -79,8 +91,15 @@ body {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 30px 0;
-  margin-top: 30px;
+  background-color: #8F1917; /* Changed to the new color */
+  background-image: url('/assets/image\ 61.png'); /* Background image */
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image */
+  background-blend-mode: multiply; /* Blend mode */
+  padding: 30px 0; */
+  /* /* margin-top: 30px; */
+  margin: 0; /* Remove any margin */
+  width: 100%;
 }
 
 .social-media {
